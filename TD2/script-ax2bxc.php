@@ -3,8 +3,10 @@
     $b = readline();
     $c = readline();
     $d = $b**2 - 4*$a * $c;
-if($d < 0) echo"pas de solutions";
-    else if ($d = 0){
+    if($d < 0) {
+        echo"pas de solutions";
+    }
+    else if ($d == 0){
         $x = -$b/ (2*$a);
         echo"x=$x";
     }

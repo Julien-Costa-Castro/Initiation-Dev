@@ -3,8 +3,13 @@
     $n = readline();
     echo "entrez un diviseur : ";
     $p = readline();
-    $reste = $n % $p;
-    $q = ($n - $reste) / $p;
-    echo "$n = $p x $q + $reste";
+    $q = 0;
+    $s = $n ;
+    while($n >= $p){
+        $n = $n - $p;
+        $q = $q + 1;
+    }
+    echo "$s = $p x $q + $n";
+
 
 
