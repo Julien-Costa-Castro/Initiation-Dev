@@ -1,9 +1,17 @@
 <?php
-function nbChiffres(int $n):int{
+function nbChiffresDe(int $n):int{
+
     $c = 0;
     while($n > 0){
-        $n = $n / 10;
-        $c++;
+        $n = floor($n/10);
+        ++$c;
+
     }
+
     return $c;
+}
+
+
+function nbChiffresDuCarreDe(int $n): int{
+    return nbChiffresDe($n * $n);
 }
