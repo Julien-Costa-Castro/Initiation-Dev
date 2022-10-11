@@ -1,5 +1,5 @@
 <?php
-require "fonction-fréquenceChiffres.php";
+require ("fonction-aChiffresTousDifferents.php");
 $a = readline();
-$b = fréquenceChiffres($a);
-print_r($b);
+$b = aChiffresTousDifferents($a);
+echo $b;
