@@ -1,5 +1,5 @@
 <?php
-function nbChiffresDe(int $n):int{
+function nbDeChiffresDe(int $n):int{
 
     $c = 0;
     while($n > 0){
