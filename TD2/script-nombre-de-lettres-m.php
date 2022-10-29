@@ -1,5 +1,8 @@
 <?php
-
+/**
+ * Donnée : un entier n
+ * Résultat : affiche le nombre de lettre "m" dans la chaine de caractère
+ */
     $a = "";
     $n = 0;
 

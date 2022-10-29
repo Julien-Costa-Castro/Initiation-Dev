@@ -1,5 +1,8 @@
 <?php
-
+/**
+ * Donnée : un entier n
+ * Résultat : affiche le nombre de mots
+ */
     $a = "";
     $n = 1;
 

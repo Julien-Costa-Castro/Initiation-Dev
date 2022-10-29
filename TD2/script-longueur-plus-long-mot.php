@@ -1,4 +1,8 @@
 <?php
+/**
+ * Donnée : un mot
+ * Résultat : affiche la longueur du plus long mot de la chaine de caractère
+ */
     $a = "";
     $n = 0;
     $longueur = 0;

@@ -1,4 +1,8 @@
 <?php
+/**
+ * Donnée : un entier n
+ * Résultat : affiche la longueur du dernier mot de la chaine de caractère
+ */
 $a = "";
 $n = 0;
 $m = 0;

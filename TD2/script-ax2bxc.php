@@ -1,4 +1,8 @@
 <?php
+/**
+ * Donnée : un entier n
+ * Résultat : vrai si n est une année bissextile, faux sinon
+ */
     $a = readline();
     $b = readline();
     $c = readline();

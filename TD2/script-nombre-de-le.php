@@ -1,4 +1,8 @@
 <?php
+/**
+ * Donnée : un entier n
+ * Résultat : affiche le nombre de "le" dans la chaine de caractère
+ */
 $a = "";
 $n = 0;
 $m = false;

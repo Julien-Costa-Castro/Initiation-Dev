@@ -1,4 +1,8 @@
 <?php
+/**
+ * Donnée : un entier n
+ * Résultat : affiche le nombre de valeurs paires
+ */
 echo"saisir un nombre entier positif ou nul:\n";
 $n = readline();
 $p = 0;
