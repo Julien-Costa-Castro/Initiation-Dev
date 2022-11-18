@@ -1,28 +1,24 @@
 <?php
-$i = 0;
-echo("entrer la première valeur : ");
-$i = readline();
-$u = 0;
-$n = 1;
-$verif = true;
-$temp = $u;
-
-
-while ($n != $i ) {
-    echo "Entrer la valeur suivante de la suite: ";
-    $u = readline();
-    $n++;
-    if ($u > $temp) {
-        $temp = $u;
-    }
-    else {
-        $verif = false;
+echo("entrer le nombre de valeurs : ");
+$nb = readline();
+echo("entrer les valeurs de la suite:\n");
+$n = readline();
+$u = $n;
+$i = 1;
+$suitecroissante = true;
+$findelasuiteatteinte = false;
+while (!$findelasuiteatteinte and $suitecroissante) {
+    $n = readline();
+    if ($u <= $n) {
+        $u = $n;
+    } else $suitecroissante = false;
+    $i++;
+    if ($i >= $nb) {
+        $findelasuiteatteinte = true;
     }
 }
-if($verif == false){
+if ($suitecroissante == false) {
     echo "faux";
-}
-
-else {
+} else {
     echo "vrai";
 }

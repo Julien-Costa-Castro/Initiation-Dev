@@ -1,5 +1,5 @@
 <?php
-    function afficherTabEntiers(array $T):void{
+    function afficherTabEntiers(array $T): void{
         $n = count($T);
         echo "[";
         for($i=0;$i<$n;$i++){
