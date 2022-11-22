@@ -12,6 +12,3 @@ function fréquenceChiffres(int $n): array
     }
     return $b;
 }
-
-print_r(fréquenceChiffres(123));
-print_r(fréquenceChiffres(0));
